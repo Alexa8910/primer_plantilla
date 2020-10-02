@@ -1,0 +1,152 @@
+	.info-panel{
+		background:white;
+		border:2px solid #CACFD2;
+	}
+	.info-panel-header{
+		background:white;
+		border-bottom:2px solid #CACFD2;
+		font-family: 'Prompt',sans-serif;
+		
+	}
+	.text_nosotros{
+		text-align:right;
+		font-size: 1.20rem;
+		font-weight: 300;
+		line-height: 1.2;
+		font-family: 'Quicksand', sans-serif;
+	}
+	hr{
+		height: 10px;
+		width:400px;
+		border: 1;
+		box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8);
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+	}
+	.fondo_footer{
+		background:black;
+	}
+	.color_facebook{
+		color:#3b5998;
+	}
+	.color_twitter{
+		color:#00acee;
+	}
+	.color_whatsapp{
+		color:#00bb2d;
+	}
+	.color_instagram{
+		color:purple;
+	}
+	.img-container img{
+		width:250px;
+		height:250px;
+	}
+	.embed-container{
+		width:100%;
+		height:70%;
+	}
+	h1{
+		color:black;
+		text-align:center;
+		font-family: 'Libre Franklin', sans-serif;
+		font-size:45px;
+	}
+	h3{
+		font-family: 'Libre Franklin', sans-serif;
+		color:black;
+		text-align:center;
+		font-size:35px;
+		
+	}
+	.feed-list .title{
+		text-align:center;
+		font-family: 'Rajdhani', sans-serif;
+		font-size:30px;
+	}
+	.bottom-nav .button:hover{
+		background:#4C82E8;
+		color:#ffff;
+	}
+	.feed-list .item .avatar, .feed-list>li .avatar{
+		border-radius:50%;
+		width:80px;
+		height:80px;
+		box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+	}
+	.fondo_imagen{
+		width:100%;
+		height:380px;
+	}
+	.contenedor{
+		position:relative;
+		display:inline-block;
+		text-align:center;
+	}
+	.letra_centrado{
+		position:absolute;
+		top:40%;
+		left:30%;
+	}
+	.reduce-1{
+		color:black;
+		font-size:15px!important;
+		
+	}
+	.reduce-1 a{
+		color:black;
+	}
+	a:not([class]):hover{
+		color:#154360;
+		text-decoration:none;
+	}
+	.no-wrap{
+		text-decoration:none;
+	}
+	.location{
+		width:500px;
+		height:300px;
+	}
+	.logo{
+		width:120px;
+		height:120px;
+	}
+	.sin_viñetas{
+		list-style: none;
+	}
+	.sin_viñetas li{
+		 text-align:left!important;
+		 font-size:15px;
+	}
+	.sin_border{
+		border:none;
+	}
+	.tam_18px{
+		font-size:18px;
+	}
+	.bg-gray{
+		background-color: #CACFD2!important;
+	}
+	.panel{
+		width:500px;
+		border:none;
+	}
+	.panel .panel-content{
+		width:500px;
+		padding:0px;
+	}
+	.centrado{
+		text-align:center;
+	}
+	.letra_principal{
+		text-align:justify;
+		font-size:18px;
+		font-family: 'Quicksand', sans-serif;
+	}
+	
+	
+	
+	
