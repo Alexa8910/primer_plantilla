@@ -1,19 +1,32 @@
+	h1{
+		color:black;
+		text-align:center;
+		font-family: 'Libre Franklin', sans-serif;
+		font-size:45px;
+	}
+	h3{
+		font-family: 'Libre Franklin', sans-serif;
+		color:black;
+		text-align:center;
+		font-size:35px;
+		
+	}
 	.info-panel{
 		background:white;
-		border:2px solid #CACFD2;
+		border-top:2px solid #292040;
+		border-bottom:2px solid #292040;
 	}
 	.info-panel-header{
 		background:white;
-		border-bottom:2px solid #CACFD2;
-		font-family: 'Prompt',sans-serif;
+		border-bottom:2px solid #292040;
+		font-family: 'Libre Franklin', sans-serif;
+		font-size:22px;
 		
 	}
 	.text_nosotros{
-		text-align:right;
-		font-size: 1.20rem;
-		font-weight: 300;
-		line-height: 1.2;
-		font-family: 'Quicksand', sans-serif;
+		
+		font-size:17px;
+		font-family: 'Poppins', sans-serif;
 	}
 	hr{
 		height: 10px;
@@ -49,33 +62,42 @@
 		width:100%;
 		height:70%;
 	}
-	h1{
-		color:black;
-		text-align:center;
-		font-family: 'Libre Franklin', sans-serif;
-		font-size:45px;
-	}
-	h3{
-		font-family: 'Libre Franklin', sans-serif;
-		color:black;
-		text-align:center;
-		font-size:35px;
-		
-	}
-	.feed-list .title{
-		text-align:center;
-		font-family: 'Rajdhani', sans-serif;
-		font-size:30px;
-	}
 	.bottom-nav .button:hover{
 		background:#4C82E8;
 		color:#ffff;
+	}
+	.bottom-nav .button:hover .title_menu{
+		color:#ffff;
+	}
+	.feed-list .title{
+		text-align:center;
+		font-family:'Libre Franklin', sans-serif;
+		font-size:30px;
+		/*border-bottom:2px solid #0278ae;*/
+		height:60px;
+		line-height:55px;
+		background:#132743;
+		color:white;
+		border-top-left-radius:20px;
+		border-bottom-right-radius:20px;
 	}
 	.feed-list .item .avatar, .feed-list>li .avatar{
 		border-radius:50%;
 		width:80px;
 		height:80px;
-		box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+		
+	}
+	.feed-list .item, .feed-list>li, .items-list .item, .items-list>li{
+	}
+	.feed-list, .items-list{
+		background:#e8e8e8;
+		color:black;
+		border-top-left-radius:30px;
+		border-bottom-right-radius:30px;
+	}
+	.label{
+		font-family: 'Poppins', sans-serif;
+		font-size:17px;
 	}
 	.fondo_imagen{
 		width:100%;
@@ -86,11 +108,7 @@
 		display:inline-block;
 		text-align:center;
 	}
-	.letra_centrado{
-		position:absolute;
-		top:40%;
-		left:30%;
-	}
+	
 	.reduce-1{
 		color:black;
 		font-size:15px!important;
@@ -124,12 +142,6 @@
 	.sin_border{
 		border:none;
 	}
-	.tam_18px{
-		font-size:18px;
-	}
-	.bg-gray{
-		background-color: #CACFD2!important;
-	}
 	.panel{
 		width:500px;
 		border:none;
@@ -141,10 +153,33 @@
 	.centrado{
 		text-align:center;
 	}
+	.tam_18px{
+		font-size:18px;
+	}
+	
+	.letra_centrado{
+		position:absolute;
+		top:40%;
+		left:30%;
+	}
+	.title_menu{
+		font-family:'Libre Franklin', sans-serif;
+		color:black;
+		font-weight:bold;
+	}
 	.letra_principal{
 		text-align:justify;
 		font-size:18px;
 		font-family: 'Quicksand', sans-serif;
+	}
+	.bg_azul{
+		background:#292040;
+	}
+	.bg-gray{
+		background-color: #CACFD2!important;
+	}
+	.fg-dark-amber{
+		color:#a77107;
 	}
 	
 	
